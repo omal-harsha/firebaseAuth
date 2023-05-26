@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Signup } from './pages/Signup';
 import { UserAuthContextProvider } from './components/UserAuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
+import { PhoneSignUp } from './pages/PhoneSignUp';
 
 
 const router = createBrowserRouter ([
@@ -23,6 +24,10 @@ const router = createBrowserRouter ([
   {
     path: "/signup",
     element: <Signup/>
+  },
+  {
+    path: "/phonesignup",
+    element: <PhoneSignUp/>
   }
 ])
 

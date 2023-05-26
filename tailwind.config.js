@@ -19,6 +19,7 @@ module.exports = {
         'lg': '1440px',
         // => @media (min-width: 1440px) { ... }
       },
+      outline: ['focus-visible'],
     },
   },
   plugins: [],
